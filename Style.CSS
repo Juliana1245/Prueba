@@ -1,0 +1,233 @@
+
+* {
+  
+  box-sizing: border-box; /*controla cómo se calcula el ancho y el alto de un elemento, 
+  incluyendo su relleno y borde */
+  margin: 0;
+  padding: 0;
+  
+  }
+  
+  html {
+  
+     font-size: 62.5%;
+     scroll-behavior: smooth; /* Desplazamiento lento por alrededor de la página al utilizar link */
+  
+  }
+
+  body {
+
+     overflow-x: hidden; /* se utiliza en CSS para ocultar cualquier contenido 
+    que se extienda horizontalmente más allá del ancho de su elemento contenedor.  */
+
+  }
+  
+  nav ul {
+  
+     background-color: rgb(114, 43, 43);
+     display: flex;
+     justify-content: flex-end;
+     position: fixed; /* Para fijar la barra de navegación */
+     width: 100%;
+     height: 15%;
+     z-index: 10; /* Para que se superponga a los demás contenedores */
+     list-style: none;
+
+  }
+  
+img {
+
+     width: 100%;  
+     height: 700px;
+ 
+}
+  
+  .Item {
+  
+     font-size: 1.5rem;
+     color:rgb(14, 11, 11);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     display: inline-block;
+     margin: 0 2rem;
+     line-height: 100px; /* se utiliza para controlar la altura de la línea en elementos de texto*/
+     text-transform: uppercase; /* Mayus */
+     text-decoration: none;
+      
+  }
+  
+  .Item:active {
+  
+     color: rgb(255, 255, 255);
+     transition: .5s;
+  
+  } 
+  
+  .Item:hover {
+  
+    animation: animacion 1s ease-in-out infinite;
+    transition: 0.5s;
+
+  }
+  
+  @keyframes animacion {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+    
+  }
+  
+  .Title {
+  
+    position: relative;
+    bottom: 50rem;
+    color:  #ffffff;
+    font-size: 6rem;
+    text-align: center;
+  
+  }
+  
+  .Coctelería {
+    
+    background-color: black;
+    width: 100vw;
+    height: 25%;
+    position: absolute;
+    top: 55rem;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Coctelería p {
+  
+    color: azure;
+    font-size: 4rem;
+      
+  }
+
+  .Practica {
+  
+    position: relative;
+    top: 30rem;
+    color: #ffffff;
+
+  }
+
+  section {
+
+    scroll-margin-top: 100px; /* se utiliza para controlar el espacio que se debe dejar en 
+    la parte superior de un elemento al desplazarse con un link */
+
+  }
+
+  #Container {
+
+    display: flex;
+    flex-wrap: wrap; /*se indica que los elementos flexibles dentro del contenedor pueden 
+    envolverse en líneas adicionales si no hay suficiente espacio en la línea actual. */
+    position: relative;
+    bottom: 40rem;
+
+  }
+
+  #box1,
+  #box2,
+  #box3,
+  #box4 {
+
+    width: 100%;
+    height: 100%;
+
+  }
+
+  #box1 {
+
+    padding: 16rem;
+    background: url("./MULTIMEDIA/IMAGENES/1366_521.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  }
+
+  #Contenido {
+
+    text-align: center;
+    font-size: 2rem;
+    padding: 0px 70px;
+    font-family: inherit;
+    position: relative;
+    top: 30rem;
+
+  }
+
+  #box2 {
+
+    background-color: rgb(0, 0, 0);
+    margin: 4rem 10rem;
+    border-radius: 24px;
+    padding: 8px 40px;
+    text-align: center;
+
+    opacity: 0.8;
+
+  }
+
+  #box3 {
+
+    background-color: rgb(0, 0, 0);
+    margin: 4rem 10rem;
+    border-radius: 24px;
+    padding: 8px 40px;
+    text-align: center;
+
+    opacity: 0.8;
+    top: 70rem;
+
+  }
+
+  #box4 {
+
+    background-color: rgb(0, 0, 0);
+    margin: 4rem 10rem;
+    border-radius: 24px;
+    padding: 8px 40px;
+    text-align: center;
+
+    opacity: 0.8;
+    top: 110rem;
+  
+  }
+
+/* Inicio del footer */
+
+#Info {
+
+    position: relative;
+    top: 130rem;
+
+}
+
+.Formulario {
+
+  font-size: 2rem;
+  position: relative;
+  top: 10rem;
+  left: 5%;
+
+}
+
+.Cards {
+
+   position: relative;
+   top: 80rem;
+
+}
+
+

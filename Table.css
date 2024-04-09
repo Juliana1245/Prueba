@@ -1,0 +1,17 @@
+#Contenido {
+
+    text-align: center;
+    font-size: 2rem;
+    padding: 0px 30%;
+    font-family: inherit;
+    
+  }
+
+  .Formulario {
+
+    font-size: 2rem;
+    position: relative;
+    top: 10rem;
+    left: 50%;
+  
+  }

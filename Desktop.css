@@ -1,0 +1,20 @@
+#Contenido {
+
+    text-align: center;
+    font-size: 3rem;
+    padding: 0px 35%;
+    padding-left: 35%;
+    font-family: inherit;
+    
+  }
+
+  /* Inicio del footer */
+
+  .Formulario {
+
+    font-size: 3rem;
+    position: relative;
+    top: 10rem;
+    left: 60%;
+  
+  }
